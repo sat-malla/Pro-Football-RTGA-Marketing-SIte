@@ -61,8 +61,7 @@ export function DownloadCta() {
           <span className="text-gradient-electric">one tap away</span>
         </h2>
         <p className="mx-auto mt-6 max-w-xl text-lg text-muted-foreground">
-          Generate, simulate, analyze, and learn
-          what it takes to win it all!
+          Generate, simulate, analyze, and learn what it takes to win it all!
         </p>
         <div className="mt-9 flex flex-wrap justify-center gap-4">
           <a
@@ -72,11 +71,11 @@ export function DownloadCta() {
             Download for iOS
           </a>
           <a
-              href="https://intelligent-lupin-a6c.notion.site/Pro-Football-RTGA-Page-3c115e0a717080ceb491ec11f6df6846?source=copy_link"
-              className="inline-flex items-center gap-2 rounded-md border border-border bg-surface/60 px-7 py-3.5 font-display text-lg font-semibold tracking-wide uppercase text-foreground backdrop-blur transition-colors hover:border-electric/60"
-            >
-              Visit to Learn More
-            </a>
+            href="https://intelligent-lupin-a6c.notion.site/Pro-Football-RTGA-Page-3c115e0a717080ceb491ec11f6df6846?source=copy_link"
+            className="inline-flex items-center gap-2 rounded-md border border-border bg-surface/60 px-7 py-3.5 font-display text-lg font-semibold tracking-wide uppercase text-foreground backdrop-blur transition-colors hover:border-electric/60"
+          >
+            Visit to Learn More
+          </a>
         </div>
       </div>
     </section>
@@ -89,17 +88,17 @@ export function SiteFooter() {
       <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-between gap-4">
         <div className="flex flex-row items-center justify-center gap-5">
           <img
-              src={iconAsset}
-              alt="Pro Football RTGA logo"
-              className="size-11 rounded-xl ring-1 ring-electric/40 md:size-12"
-            />
+            src={iconAsset}
+            alt="Pro Football RTGA logo"
+            className="size-11 rounded-xl ring-1 ring-electric/40 md:size-12"
+          />
           <span className="font-display tracking-[0.12em] uppercase">
             Pro Football <span className="text-electric">RTGA</span>
           </span>
         </div>
         <p className="text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} Pro Football RTGA. Not affiliated with or endorsed
-          by the National Football League.
+          &copy; {new Date().getFullYear()} Pro Football RTGA. Not affiliated with or endorsed by
+          the National Football League.
         </p>
       </div>
     </footer>

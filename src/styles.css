@@ -80,18 +80,9 @@
   --highlight-accent: 213 80% 32%;
   --highlight-destructive: 0 72% 51%;
 
-  --gradient-electric: linear-gradient(
-    135deg,
-    oklch(0.63 0.19 253),
-    oklch(0.42 0.16 256)
-  );
-  --gradient-panel: linear-gradient(
-    160deg,
-    oklch(1 0 0 / 8%),
-    oklch(1 0 0 / 0%) 45%
-  );
-  --shadow-glow: 0 0 0 1px oklch(0.63 0.19 253 / 25%),
-    0 18px 50px -18px oklch(0.63 0.19 253 / 45%);
+  --gradient-electric: linear-gradient(135deg, oklch(0.63 0.19 253), oklch(0.42 0.16 256));
+  --gradient-panel: linear-gradient(160deg, oklch(1 0 0 / 8%), oklch(1 0 0 / 0%) 45%);
+  --shadow-glow: 0 0 0 1px oklch(0.63 0.19 253 / 25%), 0 18px 50px -18px oklch(0.63 0.19 253 / 45%);
   --shadow-panel: 0 24px 60px -30px oklch(0 0 0 / 80%);
 }
 
@@ -172,9 +163,7 @@
 @utility panel {
   position: relative;
   border-radius: var(--radius-xl);
-  background:
-    var(--gradient-panel),
-    linear-gradient(180deg, var(--surface), var(--deep));
+  background: var(--gradient-panel), linear-gradient(180deg, var(--surface), var(--deep));
   border: 1px solid var(--border);
   box-shadow: var(--shadow-panel);
 }

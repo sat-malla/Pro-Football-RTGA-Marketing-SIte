@@ -1,10 +1,4 @@
-import {
-  Shuffle,
-  BrainCircuit,
-  Radio,
-  SlidersHorizontal,
-  type LucideIcon,
-} from "lucide-react";
+import { Shuffle, BrainCircuit, Radio, SlidersHorizontal, type LucideIcon } from "lucide-react";
 
 import type { ReactNode } from "react";
 import { ScrollReveal } from "@/components/ui/scroll-text";
@@ -16,7 +10,6 @@ import analyzeRight from "@/assets/analyze-phone-right.png";
 import simulatePhone from "@/assets/simulate-phone.png";
 import optimizePhone from "@/assets/optimize-phone-left.png";
 
-
 type Feature = {
   id: string;
   no: string;
@@ -27,7 +20,6 @@ type Feature = {
   bullets: string[];
   visual: ReactNode;
 };
-
 
 function DepthChart() {
   return (
@@ -204,17 +196,11 @@ export function Features() {
           id={f.id}
           className="scroll-mt-28 grid items-center gap-20 border-t border-border/60 py-24 first:border-t-0 first:pt-0 last:pb-0 lg:grid-cols-2 lg:gap-32 lg:py-32 xl:gap-44"
         >
-          <ScrollReveal
-            direction="up"
-            distance={30}
-            className={i % 2 === 1 ? "lg:order-2" : ""}
-          >
+          <ScrollReveal direction="up" distance={30} className={i % 2 === 1 ? "lg:order-2" : ""}>
             <div className="panel p-7 md:p-9">
               <div className="flex items-center justify-between gap-4 border-b border-border/70 pb-4">
                 <div className="flex items-center gap-3">
-                  <span className="text-stat text-4xl text-electric-deep">
-                    {f.no}
-                  </span>
+                  <span className="text-stat text-4xl text-electric-deep">{f.no}</span>
                   <span className="label-kicker">{f.kicker}</span>
                 </div>
                 <span className="flex size-10 items-center justify-center rounded-md border border-electric/30 bg-electric/10">
@@ -249,4 +235,3 @@ export function Features() {
     </section>
   );
 }
-

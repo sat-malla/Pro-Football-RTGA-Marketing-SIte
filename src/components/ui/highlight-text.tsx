@@ -30,8 +30,7 @@ const highlightVariants = cva("relative inline-block", {
 type HighlightColor = "primary" | "secondary" | "accent" | "destructive";
 type HighlightVariant = "underline" | "box" | "circle" | "marker";
 
-export interface HighlightTextProps
-  extends Omit<React.HTMLAttributes<HTMLSpanElement>, "color"> {
+export interface HighlightTextProps extends Omit<React.HTMLAttributes<HTMLSpanElement>, "color"> {
   children: React.ReactNode;
   variant?: HighlightVariant;
   color?: HighlightColor;
@@ -235,9 +234,7 @@ const HighlightText = React.forwardRef<HTMLSpanElement, HighlightTextProps>(
     return (
       <span
         ref={(node) => {
-          (
-            containerRef as React.MutableRefObject<HTMLSpanElement | null>
-          ).current = node;
+          (containerRef as React.MutableRefObject<HTMLSpanElement | null>).current = node;
           if (typeof ref === "function") {
             ref(node);
           } else if (ref) {

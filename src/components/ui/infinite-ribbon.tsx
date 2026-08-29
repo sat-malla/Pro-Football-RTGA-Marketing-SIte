@@ -47,15 +47,13 @@ export function InfiniteRibbon({
   className,
 }: InfiniteRibbonProps) {
   const repeatCount = Math.max(1, Math.floor(repeat));
-  const animationName = reverse
-    ? "iconiq-infinite-ribbon-reverse"
-    : "iconiq-infinite-ribbon";
+  const animationName = reverse ? "iconiq-infinite-ribbon-reverse" : "iconiq-infinite-ribbon";
 
   return (
     <div
       className={cn(
         "w-full max-w-full overflow-hidden bg-foreground py-1 text-background text-lg",
-        className
+        className,
       )}
       style={{ transform: `rotate(${rotation}deg)` }}
     >
