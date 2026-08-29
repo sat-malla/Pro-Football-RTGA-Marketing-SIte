@@ -28,13 +28,10 @@ const pillars = [
 export function Credibility() {
   return (
     <section id="engine" className="relative overflow-hidden py-24 md:py-32">
+      <div aria-hidden="true" className="yard-lines pointer-events-none absolute inset-0" />
       <div
         aria-hidden="true"
-        className="yard-lines pointer-events-none absolute inset-0"
-      />
-      <div
-        aria-hidden="true"
-        className="pointer-events-none absolute top-1/2 left-1/2 h-[400px] w-[1000px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-electric-deep/25 blur-[130px]"
+        className="pointer-events-none absolute top-1/2 left-1/2 h-100 w-250 -translate-x-1/2 -translate-y-1/2 rounded-full bg-electric-deep/25 blur-[130px]"
       />
 
       <div className="relative mx-auto max-w-7xl px-6">
@@ -46,9 +43,9 @@ export function Credibility() {
             <span className="text-gradient-electric">actually hold up</span>
           </h2>
           <p className="mt-6 text-lg text-muted-foreground">
-            Anyone can shuffle names into a lineup. The hard part is telling you
-            what that lineup would really do in September, in December, and in
-            the playoff. What's the most realistic outcome for your team if they played a full NFL season or a real NFL team?
+            Anyone can shuffle names into a lineup. The hard part is telling you what that lineup
+            would really do in September, in December, and in the playoff. What's the most realistic
+            outcome for your team if they played a full NFL season or a real NFL team?
           </p>
         </ScrollReveal>
 
@@ -64,7 +61,6 @@ export function Credibility() {
           ))}
         </div>
       </div>
-
     </section>
   );
 }

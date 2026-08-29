@@ -2,11 +2,7 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Hero } from "@/components/landing/Hero";
 import { Features } from "@/components/landing/Features";
 import { Credibility } from "@/components/landing/Credibility";
-import {
-  SiteHeader,
-  DownloadCta,
-  SiteFooter,
-} from "@/components/landing/SiteChrome";
+import { SiteHeader, DownloadCta, SiteFooter } from "@/components/landing/SiteChrome";
 
 const title = "Pro Football RTGA: Random NFL Teams and Real AI Simulations";
 const description = "An app to generate, analyze, and simulate a random NFL team's outcomes.";
