@@ -8,9 +8,8 @@ import {
   SiteFooter,
 } from "@/components/landing/SiteChrome";
 
-const title = "Pro Football RTGA — Random NFL Teams, Simulated by AI";
-const description =
-  "Generate a random NFL roster from real players, then simulate the season, talk to an AI analyst, run any matchup since 2015, and optimize for a Super Bowl build.";
+const title = "Pro Football RTGA: Random NFL Teams and Real AI Simulations";
+const description = "An app to generate, analyze, and simulate a random NFL team's outcomes.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
