@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="public/official-PF-RTGA-icon.png" width="120" alt="Pro Football RTGA icon" />
+
 # Pro Football RTGA: Marketing Site
 
 **The landing page for [Pro Football RTGA](https://github.com/sat-malla/nfl-randomteam-analysis)**, a random NFL team generator, analyzer, and simulator all powered by powerful ML algorithms and AI analysis.
