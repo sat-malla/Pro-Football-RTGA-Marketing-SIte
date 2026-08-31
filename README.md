@@ -1,10 +1,10 @@
 <div align="center">
 
-# Pro Football RTGA — Marketing Site
+# Pro Football RTGA: Marketing Site
 
 **The landing page for [Pro Football RTGA](https://github.com/sat-malla/nfl-randomteam-analysis)**, a random NFL team generator, analyzer, and simulator all powered by powerful ML algorithms and AI analysis.
 
-[Live Site](https://pf-rtga-marketing-site.vercel.app/) • [Main App Repo](https://github.com/sat-malla/nfl-randomteam-analysis) • [Full Writeup](https://app.notion.com/p/Pro-Football-RTGA-Page-3c115e0a717080ceb491ec11f6df6846)
+[Live Site](https://pf-rtga-marketing-site.vercel.app/) • [Main App Repo](https://github.com/sat-malla/nfl-randomteam-analysis) • [Notion Page - Full Writeup](https://intelligent-lupin-a6c.notion.site/Pro-Football-RTGA-Page-3c115e0a717080ceb491ec11f6df6846)
 
 </div>
 
@@ -29,7 +29,7 @@ This is a small, single-purpose marketing site, so contributions here are mostly
 If you spot any small issues that you would like me to fix in addition to this, please make
 sure to [open an issue](https://github.com/sat-malla/pf-rtga-marketing-site/issues).
 
-For anything related to the actual app's functionality or ML models, see the [main repo](https://github.com/sat-malla/nfl-randomteam-analysis) instead.
+For any contributions related to the actual app's functionality or ML models, see the [main repo](https://github.com/sat-malla/nfl-randomteam-analysis) instead.
 
 ## License
 
