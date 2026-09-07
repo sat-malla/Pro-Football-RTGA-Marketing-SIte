@@ -144,9 +144,9 @@ function PrivacyPage() {
       <B>
         Groq (AI-powered analysis features) — <Ext href="https://groq.com/privacy-policy/" />
       </B>
-      <B>
+      {/* <B>
         Stripe (payment processing, if applicable) — <Ext href="https://stripe.com/privacy" />
-      </B>
+      </B> */}
       <P>
         The Application also relies on the following backend infrastructure providers to store data and operate its
         services. These providers do not independently collect information from you; they process data on the Service
