@@ -36,10 +36,11 @@ export function SiteHeader() {
           ))}
         </nav>
         <a
-          href="#download"
-          className="inline-flex items-center gap-2 rounded-md border border-electric/50 bg-electric/10 px-4 py-2 font-display text-sm font-semibold tracking-widest uppercase transition-colors hover:bg-electric/20"
+          href="https://apps.apple.com/us/app/pro-football-rtga/id6802499607"
+          target="_blank"
+          className="inline-flex items-center gap-2 rounded-md border border-electric/50 bg-electric/10 px-4 py-2 font-display text-sm font-semibold tracking-widest transition-colors hover:bg-electric/20"
         >
-          Download
+          DOWNLOAD APP (iOS)
           <ArrowRight className="size-3.5" />
         </a>
       </div>
@@ -66,7 +67,8 @@ export function DownloadCta() {
         </p>
         <div className="mt-9 flex flex-wrap justify-center gap-4">
           <a
-            href="#download"
+            href="https://apps.apple.com/us/app/pro-football-rtga/id6802499607"
+            target="_blank"
             className="inline-flex items-center gap-2 rounded-md bg-primary px-8 py-4 font-display text-lg font-semibold tracking-wide uppercase text-primary-foreground glow-ring transition-transform hover:-translate-y-0.5"
           >
             Download for iOS

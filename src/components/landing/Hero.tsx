@@ -47,10 +47,11 @@ export function Hero() {
 
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
-              href="#download"
-              className="group inline-flex items-center gap-2 rounded-md bg-primary px-7 py-3.5 font-display text-lg font-semibold tracking-wide uppercase text-primary-foreground glow-ring transition-transform hover:-translate-y-0.5"
+              href="https://apps.apple.com/us/app/pro-football-rtga/id6802499607"
+              target="_blank"
+              className="group inline-flex items-center gap-2 rounded-md bg-primary px-7 py-3.5 font-display text-lg font-semibold tracking-wide text-primary-foreground glow-ring transition-transform hover:-translate-y-0.5"
             >
-              Get the app
+              GET THE APP (iOS)
               <ArrowRight className="size-4 transition-transform group-hover:translate-x-1" />
             </a>
             <a

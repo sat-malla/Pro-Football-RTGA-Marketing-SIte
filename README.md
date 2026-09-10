@@ -6,6 +6,10 @@
 
 **The landing page for [Pro Football RTGA](https://github.com/sat-malla/nfl-randomteam-analysis)**, a random NFL team generator, analyzer, and simulator all powered by powerful ML algorithms and AI analysis.
 
+Available on iOS. Android coming soon!
+
+[![Download on the App Store](https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg)](https://apps.apple.com/us/app/pro-football-rtga/id6802499607)
+
 [Live Site](https://pf-rtga-marketing-site.vercel.app/) • [Main App Repo](https://github.com/sat-malla/nfl-randomteam-analysis) • [Notion Page - Full Writeup](https://intelligent-lupin-a6c.notion.site/Pro-Football-RTGA-Page-3c115e0a717080ceb491ec11f6df6846)
 
 </div>
